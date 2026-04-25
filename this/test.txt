@@ -1,0 +1,5 @@
+hello world!!
+I will test the ofstream class int this text.
+the words will be appended in the file
+success
+
