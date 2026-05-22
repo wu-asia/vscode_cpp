@@ -26,6 +26,10 @@ public:
     {
         cout << "Son static void func" << endl;
     }
+    static void func(int num)
+    {
+        cout << "Son static void func(int num)" << endl;
+    }
 };
 int Son::a = 200;
 
@@ -52,6 +56,7 @@ void test02()
     //通过类名访问
     cout << "通过类名访问" << endl;
     Son::func();
+    Son::func(100);
     Son::Base::func();
     Son::Base::func(100);
 }
